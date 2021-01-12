@@ -27,7 +27,6 @@ namespace FNFBot
             FNFSong song = null;
             bool playing = false;
             Stopwatch watch = new Stopwatch();
-            int section = 0;
             bool waitingStart = false;
             
             Console.WriteLine("hooking keyboard shit");
